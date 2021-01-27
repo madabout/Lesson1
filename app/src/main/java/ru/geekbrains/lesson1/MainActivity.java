@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
                 Integer val2 = Integer.valueOf(editTextBottom.getText().toString());
 
                 if (val1.equals(val2)) {
-                    textView.setText("Равно");
+                    textView.setText("Не Равно");
                 } else {
                     textView.setText("Не равно");
                 }
