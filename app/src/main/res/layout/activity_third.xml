@@ -3,11 +3,14 @@
     xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
+
     <EditText
         android:id="@+id/et_text"
-        android:inputType="text"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:fontFamily="arial"
+        android:inputType="text"
+        android:textColor="@color/black" />
     <EditText
         android:id="@+id/et_textName"
         android:inputType="textPersonName"
@@ -33,7 +36,5 @@
         android:inputType="textEmailAddress"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
-
-
 
 </LinearLayout>
